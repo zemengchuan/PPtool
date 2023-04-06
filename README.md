@@ -16,9 +16,9 @@ pip install PPtool
 
 ## 快速获取目标数据的函数
 
-方法：get_methods
+方法：get_method
 
-描述：通过向get_methods方法传入目标数据的描述，可以快速获取你想要的函数名称，并且可以自行选择需要匹配的函数数量，以及是否需要调用
+描述：通过向get_method方法传入目标数据的描述，可以快速获取你想要的函数名称，并且可以自行选择需要匹配的函数数量，以及是否需要调用
 
 输入参数：
 
@@ -36,7 +36,7 @@ pip install PPtool
 ```python
 import PPtool as pt
 
-method = pt.get_methods("商品价格指数", limit=5)
+method = pt.get_method("商品价格指数", limit=5)
 print(method)
 ```
 
